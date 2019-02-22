@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Library2Service } from "library2";
 
 @Injectable({
   providedIn: 'root'
@@ -13,5 +14,7 @@ export class Library1Service {
     return 'app name: Library 1';
   }
 
-  constructor() { }
+  constructor(lib: Library2Service) {
+    lib.toString();
+  }
 }

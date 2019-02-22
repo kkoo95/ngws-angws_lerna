@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Library2Service } from "library2";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  constructor(lib:Library2Service) {
+    lib.toString();
+  }
 }
