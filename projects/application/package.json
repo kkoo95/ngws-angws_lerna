@@ -1,0 +1,7 @@
+{
+  "name": "application",
+  "version": "1.0.1",
+  "scripts": {
+    "build": "ng build application"
+  }
+}
