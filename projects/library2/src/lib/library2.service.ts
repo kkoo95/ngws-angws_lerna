@@ -10,7 +10,7 @@ export class Library2Service {
   }
 
   get name() {
-    return 'Library222';
+    return 'Library2';
   }
 
   constructor() { }
